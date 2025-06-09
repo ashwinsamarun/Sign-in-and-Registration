@@ -28,7 +28,7 @@ class RegisterPage extends StatelessWidget {
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/background.jpg"),
+                image: AssetImage("assets/clouds.jpg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -58,7 +58,7 @@ class RegisterPage extends StatelessWidget {
 
                     buildTextField("Full Name"),
                     buildTextField("Email Address"),
-                    buildTextField("Enter your ph no"),
+                    buildTextField("Enter your Phone No."),
                     buildTextField("Enter password", obscure: true),
                     buildTextField("Confirm password", obscure: true),
 
